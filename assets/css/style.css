@@ -180,6 +180,7 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style-type: none;
 }
 
 #contact-form li {

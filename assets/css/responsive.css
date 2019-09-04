@@ -1,0 +1,76 @@
+/* 980px CSS for Computers */
+@media screen and (max-width: 960px) {
+
+    nav {
+        margin-right: 15px;
+    }
+}
+
+
+/* 768px CSS for Tablets */
+@media screen and (max-width: 768px) {
+    nav {
+        margin-right: 15px;
+    }
+
+    #main-content {
+        padding: 5px;
+    }
+
+    .main-section {
+        width: 100%;
+    }
+
+    .work {
+        width: 40%;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+/* 640px CSS for Phones */
+
+@media screen and (max-width: 640px) {
+    #masthead {
+        position: static;
+    }
+
+    #logo {
+        clear: both;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    
+    nav a:first-child {
+        margin-left: 30%;
+    }
+
+    #main-container {
+        padding-top: 5px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+    .auth-image {
+        clear: both;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        padding: 0px;
+    }
+}
